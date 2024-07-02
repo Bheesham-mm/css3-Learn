@@ -1,0 +1,53 @@
+body{
+    padding: 20px;
+    color: rgb(39, 39, 39);
+    margin: 20px;
+}
+h1{
+    display: none;
+}
+div{
+    border: 2px solid black;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.box1{
+    border: 2px solid black;
+    /* margin: 20px; */
+    width: 190px;
+    padding: 30px;
+    background-color: hsl(180, 54%, 80%);
+    font-size: 1em;
+    height: 120px;
+    /* display: none; */
+}
+.box2{
+    background-color: lightgreen;
+    min-width: 290px;
+    max-width: 220px;
+    padding: 20px;
+    height: 150px;
+    /* display: none; */
+}
+.box3{
+   background-color: lightcoral;
+   width: 180px;
+   font-size: 1em;
+   padding: 30px;
+   min-height: 100px;
+   max-height: 150px;
+   /* display: none; */
+   
+}
+.box4{
+    padding: 30px;
+    height: 100px;
+    width: 150px;
+    overflow: scroll;
+}
+.box5{
+    padding: 30px;
+    height: 50px;
+    width: 500px;
+    overflow: hidden;
+}
